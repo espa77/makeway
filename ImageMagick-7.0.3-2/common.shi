@@ -1,0 +1,22 @@
+# Test environment
+top_srcdir='/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2'
+top_builddir='/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2'
+
+set -a
+COMPARE="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/utilities/magick compare"
+COMPOSITE="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/utilities/magick composite"
+CONJURE="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/utilities/magick conjure"
+CONVERT="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/utilities/magick convert"
+DISPLAY="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/utilities/magick display"
+IDENTIFY="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/utilities/magick identify"
+MAGICK="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/utilities/magick"
+MONTAGE="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/utilities/magick montage"
+VALIDATE="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/tests/validate"
+DRAWTEST="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/tests/drawtest"
+WANDTEST="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/tests/wandtest"
+LD_LIBRARY_PATH="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/magick/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/coders"
+MAGICK_CONFIGURE_PATH="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/config:/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/config"
+MAGICK_FILTER_MODULE_PATH="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/filters"
+PATH="/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/utilities:/Users/Occidental/sites/makeway_application/makeway_application/ImageMagick-7.0.3-2/tests:${PATH}"
+set +a
